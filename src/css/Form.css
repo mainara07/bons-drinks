@@ -1,0 +1,24 @@
+.BodyForm {
+
+}
+
+.TituloContato {
+  text-align: center;
+  color: brown;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.Container {
+  width: 400px;
+  margin: auto;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  margin-right:auto;
+  margin-left: auto;
+}
