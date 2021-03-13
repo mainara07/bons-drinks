@@ -1,14 +1,22 @@
 import './App.css';
-import Form from "./components/Form"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+import Home from "./components/Home"
+import  {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-        <Header/>
-        <Form/>
-        <Footer/>
+    <div className="body">
+      <BrowserRouter>
+      <Header/>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+      </Switch>
+      <Footer/>
+      </BrowserRouter>
+  
     </div>
   
   );

@@ -1,0 +1,34 @@
+.body {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  min-height: 100vh;
+  grid-template-areas:
+    "cabecalho"
+    "conteudo"
+    "rodape";
+  grid-template-columns: 6fr;
+  grid-template-rows: 60px auto 40px;
+  background: #fffdf8;
+  grid-auto-rows: 150px;
+}
+
+.cabecalho {
+  grid-area: cabecalho;
+  background-color: #fffbef;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
+  z-index: 0;
+}
+
+.conteudo {
+  grid-area: conteudo;
+}
+
+.rodape {
+  grid-area: rodape;
+  background-color: #fffbef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
+}

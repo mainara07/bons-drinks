@@ -1,0 +1,6 @@
+.textoRodape {
+    font-family: var(--body-font);
+    font-size: 18px;;
+    font-weight: 700;
+    color: #101010;
+}
