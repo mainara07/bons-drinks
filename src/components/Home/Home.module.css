@@ -1,5 +1,5 @@
 .homeCorpo {
-    background: url('../../img/bg-bons-drinks.jpg') no-repeat center;
+    background: url('../../assets/bg-bons-drinks.jpg') no-repeat center;
     background-size: cover;
     grid-column: 1/-1;
     grid-row: 1/-1;

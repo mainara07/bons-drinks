@@ -1,0 +1,39 @@
+.titulo{
+    justify-content: center;
+    grid-area: title;
+    font-size: 30px;
+    color: #5c0511;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    grid-area: titulo;
+
+  }
+  
+  .areaImg {
+    margin-block-start: 0;
+    grid-area: img;
+    max-width: 100%;
+    align-self: start;
+    object-fit: cover;
+    max-height: 400px;
+    width: 550px;
+    border-radius: 5px;
+  }
+  
+  .textoSobre {
+    grid-area: text;
+    margin-block-start: 0;
+  }
+  
+  .conteudo {
+    display: grid;
+    grid-template-areas:
+      'titulo titulo'
+      'img text';
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    justify-self: center;
+  }
+  

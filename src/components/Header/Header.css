@@ -1,7 +1,7 @@
 .navMenu {
   display: flex;
   align-self: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .itemMenu {
@@ -22,14 +22,7 @@
   align-self: center;
 }
 
-.itemMenu:nth-child(5) {
-  margin-right: 34px;
-}
-.itemMenu:nth-child(1) {
-  margin-left: 34px;
-}
-
-.itemLlogo:hover,
+.logoMenu:hover,
 .itemMenu:focus,
 .itemMenu:hover {
   color: #f9ae48;
