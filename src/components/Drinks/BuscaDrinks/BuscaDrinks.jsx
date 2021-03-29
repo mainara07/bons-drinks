@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Contato/Button/Button";
-import styles from "./Drinks.module.css";
+import Button from "../../Contato/Button/Button";
+import styles from "./BuscaDrinks.module.css";
 
 function BuscaDrinks() {
   const [requisicao, setRequisicao] = React.useState({});
@@ -19,13 +19,12 @@ function BuscaDrinks() {
   React.useEffect(() => buscaDrinks(), []);
 
   return (
-    <div>
+    <div className={styles.container}>
       <h3> Drink Sorteado: {requisicao.strDrink}</h3>
       <p> Categoria: {requisicao.strCategory} </p>
       <p> Instruções: {requisicao.strInstructions} </p>
       <Button style={styles.btnStyle} onClick={buscaDrinks}>
-        {" "}
-        Escolha outro drink{" "}
+        Escolha outro drink
       </Button>
     </div>
   );

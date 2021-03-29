@@ -5,8 +5,7 @@ import sobrePic from '../../assets/about-pic.jpg';
 
 const Sobre = () => {
   return (
-    <div className={styles.conteudo + ' content animeLeft'}>
-      {/* concatenando classe do app.css com o module - como estamos passando a variável style temos que abrir as chaves {} para passar a string e a variavel */}
+    <div className={styles.conteudo + ' content animacao'}>
       <h1 className={styles.titulo}>Sobre Nós</h1>
       <img src={sobrePic} className={styles.areaImg} alt="Cocktails"></img>
       <p className={styles.textoSobre}>

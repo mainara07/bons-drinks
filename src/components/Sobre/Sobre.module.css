@@ -1,13 +1,14 @@
 .titulo{
+  
     justify-content: center;
     grid-area: title;
-    font-size: 30px;
+    font-size: 40px;
     color: #5c0511;
     text-align: center;
     margin-top: 20px;
     justify-content: center;
+    font-family: var(--title-font);
     grid-area: titulo;
-
   }
   
   .areaImg {
@@ -24,6 +25,7 @@
   .textoSobre {
     grid-area: text;
     margin-block-start: 0;
+    font-family: var(--body-font);
   }
   
   .conteudo {

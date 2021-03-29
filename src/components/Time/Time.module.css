@@ -1,0 +1,21 @@
+.containerPrinc { 
+    width:100%;
+    
+    /* justify-content: center; */
+}
+
+.containerSec {
+    display: flex;
+    width:100%;
+    gap: 20px;
+}
+
+.titulo {
+    font-family: var(--title-font);
+    font-weight: 600px;
+    font-size: 40px;
+    color: #5c0511;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+}

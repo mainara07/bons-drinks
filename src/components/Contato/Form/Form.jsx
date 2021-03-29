@@ -12,7 +12,7 @@ function Form() {
 
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container + ' animacao'}>
         <h1 className={styles.titulo}>Contato</h1>
         <img
           src={contactPic}
@@ -20,12 +20,13 @@ function Form() {
           alt="Typewriter"
         ></img>
         <form className={styles.containerForm}>
-          <Input id="nome" label="Nome:" type="text" value ={nome} onChange={(event) => {setNome(event.target.value)}}/>
-          <Input id="email" label="E-mail:" type="email" value ={email}  onChange={(event) => {setEmail(event.target.value)}} />
+          <Input placeholder= "Escreva seu nome" id="nome" label="Nome:" type="text" value ={nome} onChange={(event) => {setNome(event.target.value)}}/>
+          <Input placeholder= "Escreva seu e-mail" id="email" label="E-mail:" type="email" value ={email}  onChange={(event) => {setEmail(event.target.value)}} />
 
           <TextArea
             id="mensagem"
             label="Mensagem:"
+            placeholder= "Digite sua mensagem aqui"
           />
           <div className={styles.btnGrid}>
             <Button style={styles.btnStyle}> Enviar </Button>

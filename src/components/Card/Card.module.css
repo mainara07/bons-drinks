@@ -1,0 +1,16 @@
+.containerCard {
+    width: 100%;
+}
+
+.cardImg{
+    width: 100%;
+    border: 1;
+    border-radius: 10px;
+}
+
+.cardTexto {
+    color: #5c0511;
+    font-family: var(--body-font);
+    font-weight: 600;
+    align-content: center;
+}

@@ -32,3 +32,16 @@
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.42);
 }
+
+.animacao {
+  opacity: 2;
+  transform: translateX(-20px);
+  animation: animeLeft 0.5s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}

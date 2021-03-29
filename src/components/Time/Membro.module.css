@@ -1,0 +1,30 @@
+.containerMembro {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 30px;
+}
+
+.imgMembro {
+  width: 100%;
+  height: auto;
+  border: 1;
+  border-radius: 5px;
+}
+
+.containerDescr {
+  width: 100%;
+  font-weight: 500;
+  align-content: center;
+}
+
+.nomeMembro {
+  font-family: var(--title-font);
+  color: #101010;
+}
+
+.miniBio {
+  text-align: justify;
+  margin-left: auto;
+  font-family: var(--body-font);
+}

@@ -1,15 +1,15 @@
 import React from 'react'
+import styles from "./Card.module.css"
 
 
 //componente card com espaço para imagem e espaço para titulo, recebido via props 
 //src da imagem o strDrinkThumb vindo da API 
 
-
- const Card = () => {
+function Card (props) {
     return (
-        <div>
-            <img> </img> 
-            <p> </p>
+        <div className={styles.containerCard}>
+            <img className={styles.cardImg} src= {props.image}/> 
+            <p className={styles.cardTexto}> {props.titulo} </p>
         </div>
     )
 }

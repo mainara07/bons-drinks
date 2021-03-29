@@ -11,7 +11,6 @@ const Input = ({
   placeholder,
 }) => {
  
-  const [estado, setEstado] = React.useState("")
 
   return (
     <div className={styles.container}>

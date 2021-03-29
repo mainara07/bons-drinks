@@ -7,6 +7,7 @@ import Drinks from "./components/Drinks"
 import Erro404 from "./components/Erro404"
 import  {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Form from './components/Contato/Form';
+import Time from './components/Time/Time';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
         
         <Route path="/drinks/*">
           <Drinks/>
+        </Route>
+
+        <Route path="/time">
+          <Time/>
         </Route>
 
         <Route path="*">
